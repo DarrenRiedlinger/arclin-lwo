@@ -5,8 +5,8 @@ git_repo: https://github.com/DarrenRiedlinger/arclinlwo.git
 
 
 # Application settings.
-project_name: arclin-lwo
-application_name: arclinlwoproj
+project_name: arclinlwoproj
+application_name: arclin-lwo
 virtualenv_path: "/webapps/{{ application_name }}"
 project_path: "{{ virtualenv_path }}/{{ project_name }}"
 application_path: "{{ project_path }}/{{ application_name }}"
